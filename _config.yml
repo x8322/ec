@@ -1,0 +1,44 @@
+title: Demo
+description: test
+
+baseurl: ""
+
+markdown: kramdown
+collections:
+  products:
+    output: true
+    permalink: /san-pham/:path/
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  startings: [head, body]
+
+css:
+  - ../assets/vendors/bootstrap/css/bootstrap.min.css
+  - ../assets/vendors/owl/css/owl.carousel.min.css
+  - ../assets/vendors/perfect-scrollbar/css/perfect-scrollbar.css
+  - ../assets/css/adonis.css
+  - https://fonts.googleapis.com/css?family=Poppins:400,500,700
+js:
+  - ../assets/vendors/jquery/jquery.min.js
+  - ../assets/vendors/bootstrap/js/popper.min.js
+  - ../assets/vendors/bootstrap/js/bootstrap.min.js
+  - ../assets/vendors/imagesloaded/imagesloaded.pkgd.min.js
+  - ../assets/vendors/jplayer/jquery.jplayer.min.js
+  - ../assets/vendors/jplayer/jplayer.playlist.js
+  - ../assets/vendors/owl/js/owl.carousel.min.js
+  - ../assets/vendors/anime/anime.min.js
+  - ../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.min.js
+  - ../assets/vendors/masonry/masonry.pkgd.min.js
+  - ../assets/vendors/history/jquery.history.js
+  - ../assets/js/bootstrap-hover-menu.js
+  - ../assets/js/dropdown-menu.js
+  - ../assets/js/app-all.js
+  - ../assets/js/bootstrap-hover-menu.js
+  - ../assets/js/player.js
+  - ../assets/js/viewport.js
+  - ../assets/js/effects.js
+  - ../assets/js/dropdown-menu.js
+  - ../assets/js/app.js
